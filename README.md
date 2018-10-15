@@ -1,11 +1,21 @@
 # nutrition
-private class ShapeDescription
+import java.awt.*;
+import java.awt.geom.*;
+public class Circle
+{
+    private int diameter;
+    private int xPosition;
+    private int yPosition;
+    private String color;
+    private boolean isVisible;
+    
+    /**
+     * Create a new circle at default position with default color.
+     */
+    public Circle()
     {
-        private Shape shape;
-        private String colorString;
-
-        public ShapeDescription(Shape shape, String color)
-        {
-            this.shape = shape;
-            colorString = color;
-        }
+        diameter = 68;
+        xPosition = 230;
+        yPosition = 90;
+        color = "blue";
+    }
