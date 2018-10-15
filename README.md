@@ -19,4 +19,4 @@ public class Circle
         yPosition = 90;
         color = "blue";
     }
-print(Circle)
+Circle.print()
